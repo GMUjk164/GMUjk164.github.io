@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+<style>
+        body { 
+            background-color: bisque;
+
+            /* Reset der Abstände im Dokument */
+            margin: 1rem;/* Abstand Element zu Seitenrand*/
+            padding: 1rem; /*Abstand vom Element zu Rahmen*/
+            border: 1px solid black;
+        }
+
+        /* Klassen */
+        .site-nav ul {
+            list-style-type: none;
+            margin: 0rem;
+            padding: 0rem; /* 10px */
+            overflow: hidden;
+            background-color: #333333;
+            
+        }
+
+        /* .navigation > li */
+        .site-nav li {
+            float: left;
+        }
+
+        /* .navigation > li > a */
+        .site-nav a{
+            display: block;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            padding:0.8rem;
+            background-color: chartreuse;
+        }
+        .site-nav a:hover{
+            background-color: #111;
+        }
+        .site-nav .active{
+            background-color: #4caf50;
+        }
+
+        .center {
+            width: 50px;
+            margin: 0 auto;
+            /* margin: 1rem; alle seiten */
+            /* margin: 1rem 2rem; 1. wert ist oben und unten, 2. wert links und rechst*/
+            /* margin: 1rem 2rem 3rem; */
+            /* margin: 1rem 2rem 3rem 4rem */
+        }
+        
+    </style>
